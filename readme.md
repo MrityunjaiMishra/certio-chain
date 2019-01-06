@@ -79,4 +79,4 @@ Krunal B Gediya : kgediya0898@gmail.com | kgediya<br>
 Mrityunjai R Mishra: mriityunjaimishra1402@gmail.com | MrityunjaiMishra<br>
 Akash A Mishra: akashmishra.akm@gmail.com | -<br>
 Kunal K Kasa: kunalkasa142@gmail.com | KunalKasa<br>
-<img src="https://media.giphy.com/media/9Jcw5pUQlgQLe5NonJ/source.gif"></img>
+<img src="https://media.giphy.com/media/9Jcw5pUQlgQLe5NonJ/giphy-downsized.gif"  />
