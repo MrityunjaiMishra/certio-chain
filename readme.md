@@ -34,13 +34,13 @@ detected then we just load the longest valid chain.
 2. Run python run_app.py
 3. Use ngrok to host it publicly
 Append this to your ngrok config file:
-tunnels:
-  first:
-    addr: 5000
-    proto: http    
-  second:
-    addr: 8000
-    proto: http 
+tunnels: <br>
+  first:<br>
+    addr: 5000<br>
+    proto: http   <br> 
+  second:<br>
+    addr: 8000<br>
+    proto: http <br>
 
 ## Functions 🛠
 1. Decentralized Certification
@@ -72,7 +72,7 @@ The current version simulates a peer to peer connected public chain decentralize
 fundamentals of the blockchain are illustrated here, and there are a lot of innovations currently happening in the field. There are different mining algorithms (like Proof Of Stake) and their variations. There are different consensus techniques too. There are permissioned blockchains other than Public blockchains. There are different ways of storing data in the chain. And there are different kind of data that different applications store in the blockchain. There are technologies like ethereum that allow even code to be run in a distributed fashion (aka Smart Contracts). All these innovations form grounds for different Cryptocurrencies and blockchain technologies that you'll see around you. But the fundamentals are more or less the same. So there's a lot more to explore!
 
 ## Contact info ( emailid - github id )
-Krunal B Gediya : kgediya0898@gmail.com | kgediya
-Mrityunjai R Mishra: mriityunjaimishra1402@gmail.com | MrityunjaiMishra
-Akash A Mishra: akashmishra.akm@gmail.com | -
-Kunal K Kasa: kunalkasa142@gmail.com | KunalKasa
+Krunal B Gediya : kgediya0898@gmail.com | kgediya<br>
+Mrityunjai R Mishra: mriityunjaimishra1402@gmail.com | MrityunjaiMishra<br>
+Akash A Mishra: akashmishra.akm@gmail.com | -<br>
+Kunal K Kasa: kunalkasa142@gmail.com | KunalKasa<br>
