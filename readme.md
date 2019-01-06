@@ -29,12 +29,24 @@ breaks into our website? Then there is no need to worry because even if our node
 effected by the hacker our data is distributed over the Blockchain network; so even
 if one or more nodes are corrupted then it will not affect the data. If any changes are
 detected then we just load the longest valid chain.
+## Setup 
+1. Run python node_server.py
+2. Run python run_app.py
+3. Use ngrok to host it publicly
+Append this to your ngrok config file:
+tunnels:
+  first:
+    addr: 5000
+    proto: http    
+  second:
+    addr: 8000
+    proto: http 
+
 ## Functions 🛠
 1. Decentralized Certification
 2. One Click Certificate Validation 
 3. Provides a network in which Multiple peers can connect.
 4. Security.
-## Use case diagram link 
 
 ## Technology stack / technology used ( Very Detailed ) 🧬
 ### Langugages:
