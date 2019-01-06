@@ -49,7 +49,8 @@ tunnels: <br>
 3. Provides a network in which Multiple peers can connect.
 4. Security.
 ## Use Case Diagram:
-<img src="https://i.ibb.co/zskXZ1g/Certi-O-Chain.png" />
+<img src="https://i.ibb.co/zskXZ1g/Certi-O-Chain.png"></img>
+<br>
 ## Technology stack / technology used ( Very Detailed ) 🧬
 ### Langugages:
 1. Python : It is used as a core-backend language here along with flask to create a peer to peer connected block-chain.
