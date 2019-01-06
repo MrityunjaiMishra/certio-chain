@@ -97,13 +97,13 @@ def upload_file():
                 chainLen = len(chain)
                 for block in chain["chain"]:
                     for tx in block["transactions"]:
-                        
+                            if(tx["hexedpdf"]==str(hextpdf)):
+                                return redirect('/verified')
                             tx["index"] = block["index"]
                             tx["hash"] = block["previous_hash"]
-                            content.append(tx)
+                            
                 
-            return redirect(url_for('uploaded_file',
-                                    filename=filename))
+            return redirect('/invalid-certificate-data')
             
     return '''
     <!doctype html>
@@ -114,6 +114,30 @@ def upload_file():
       <input type="submit" value="Upload">
     </form>
     '''
+@app.route('/verified')
+def verified():
+    return '''
+    <html>
+    <h1>Verified</h1>
+    </html>
+    '''
+@app.after_request
+def add_header(response):
+    """
+    Add headers to both force latest IE rendering engine or Chrome Frame,
+    and also to cache the rendered page for 10 minutes.
+    """
+    response.headers['X-UA-Compatible'] = 'IE=Edge,chrome=1'
+    response.headers['Cache-Control'] = 'public, max-age=0'
+    return response    
+@app.route('/invalid-certificate-data')
+def unverified():
+    return  '''
+    <html>
+    <h1>Invalid-Certificate-Data</h1>
+    </html>
+    '''    
+   
 @app.route('/uploads/<filename>')
 def uploaded_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'],
