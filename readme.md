@@ -41,13 +41,15 @@ tunnels: <br>
   second:<br>
     addr: 8000<br>
     proto: http <br>
+ 4. start localhost:5000 and press on request mining to start auto-mining
 
 ## Functions 🛠
 1. Decentralized Certification
 2. One Click Certificate Validation 
 3. Provides a network in which Multiple peers can connect.
 4. Security.
-
+## Use Case Diagram:
+<img src="https://i.ibb.co/zskXZ1g/Certi-O-Chain.png" />
 ## Technology stack / technology used ( Very Detailed ) 🧬
 ### Langugages:
 1. Python : It is used as a core-backend language here along with flask to create a peer to peer connected block-chain.
