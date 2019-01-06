@@ -68,7 +68,7 @@ The Whole block-chain is built upon python and then using flask and ngrok, a pub
 4. ngrok : Used for publicly hosting local host environment
 
 ## Limitations
-As the certification data is stored on block-chain, and thus immutable,it is nearly impossible to change any mistakes while issuing <br>
+As the certification data is stored on block-chain, and thus immutable,it is nearly impossible to change any mistakes while issuing
 certificates
 ## Future Aspects
 The current version simulates a peer to peer connected public chain decentralized app.
